@@ -49,3 +49,18 @@ ul {
 .game-info {
   margin-left: 20px;
 }
+
+.active {
+  font-weight: bold;
+}
+
+.reversed {
+  transform: rotate(180deg);
+}
+.reversed > li {
+  transform: rotate(-180deg);
+}
+
+.winner {
+  background-color: red;
+}
